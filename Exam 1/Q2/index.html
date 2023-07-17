@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DR. Web </title>
+  <link rel="icon" href="C:\Users\Shubham.Mali\Desktop\Exam 1\Q2\doctor.png" type="image/png" sizes="32x32" />
+  <link rel="stylesheet" href="C:\Users\Shubham.Mali\Desktop\Exam 1\Q2\style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4U_pJnjlkMKnBOg0btXiAg-E_o5gDLb3Rg&usqp=CAU" alt="logo" height="100"/>
+        <h1>DR. Web</h1>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#appointments">Appointments</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="signin-btn">Log In</button>
+      <button id="signup-btn">Sign Up</button>
+    </nav>
+  </header>
+  <div id="signin-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Log In</h2>
+      <form>
+        <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Log In</button>
+      </form>
+    </div>
+  </div>
+  <div id="signup-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign Up</h2>
+      
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+          <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <section id="home">
+    <h1>Welcome to Our Hospital</h1>
+    <h2>We take care of your Health</h2>
+  </section>
+
+  
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Emergency Care</li>
+      <li>General Surgery</li>
+      <li>Cardiology</li>
+      <li>Orthopedics</li>
+    </ul>
+  </section>
+  <section id="appointments">
+    <h2>Appointments</h2>
+    <p>To schedule an appointment, please fill out the form below:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Smt. Kashibai Navale Medical College & General Hospital is located at Ambegaon, Narhe, Pune. It is founded by President Prof. M. N. Navale and named after the mother of Prof. M. N. Navale. In a very little course of time, this institution has achieved its reputation for academic performance & patient services, not only in Pune but all over Maharashtra.</p>
+    <p> Hospital was started in 2006 with just 300 beds & expanded to 1094 bedded hospital currently with 840 teaching beds, 80 ICU beds,40 Casualty beds, 20 beds for Oral and Maxillofacial surgery,64 Day Care beds, 2 Pain Clinic and 48 Recovery beds in O.T. The medical college is started with intake of 100 students for MBBS course in September 2007. The intake capacity now has been increased to 150 students. Our MBBS degree is recognized by Medical Council of India and also by Ministry of Health and Family welfare, Government of India –New Delhi. The college is affiliated to Maharashtra University of Health Science, Nashik</p>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2023 DR. Web. All rights reserved.</p>
+  </footer>
+  <script src="C:\Users\Shubham.Mali\Desktop\Exam 1\Q2\script.js"></script>
+</body>
+
+</html>

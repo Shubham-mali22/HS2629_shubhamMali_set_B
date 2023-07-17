@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://etimg.etb2bimg.com/photo/94929616.cms) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  
+    
+    
+  }
+  
+  header {
+    background-color:rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    color: #fff;
+    
+    h1{color: #fefcfc;
+    text-align: center;
+  position: relative;}
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  h1, h2 {
+    color: #0b0b0b;
+  }
+  form label {
+    display: block;
+    margin-top: 10px;
+    
+  }
+  
+  form input,
+  form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+   /* Rest of your CSS code */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
