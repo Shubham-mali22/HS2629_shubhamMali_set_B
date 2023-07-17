@@ -1,0 +1,3 @@
+SELECT CONCAT('hotel_info ', Hotel_name, ' is a ', Hotel_type, ' hotel') AS output
+FROM hotel_info ORDER BY hotel_name DESC;
+ SELECT car_id, car_name, owner_id FROM cars WHERE car_type IN [“Hatchback”, “SUV”] ORDER BY car_id;
